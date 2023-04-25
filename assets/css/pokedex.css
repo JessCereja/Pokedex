@@ -1,0 +1,144 @@
+.lista_pokemon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: 0;
+}
+
+.normal {
+  background-color: var(--color-normal);
+}
+
+.grass {
+  background-color: var(--color-grasss);
+}
+
+.fire {
+  background-color: var(--color-fire);
+}
+
+.water {
+  background-color: var(--color-water);
+}
+
+.electric {
+  background-color: var(--color-electric);
+}
+
+.ice {
+  background-color: var(--color-ice);
+}
+
+.ground {
+  background-color: var(--color-ground);
+}
+
+.flying {
+  background-color: var(--color-flying);
+}
+
+.poison {
+  background-color: var(--color-poison);
+}
+
+.fighting {
+  background-color: var(--color-fighting);
+}
+
+.psychic {
+  background-color: var(--color-psychic);
+}
+
+.dark {
+  background-color: var(--color-dark);
+}
+
+.rock {
+  background-color: var(--color-rock);
+}
+
+.bug {
+  background-color: var(--color-bug);
+}
+
+.ghost {
+  background-color: var(--color-ghost);
+}
+
+.steel {
+  background-color: var(--color-steel);
+}
+
+.dragon {
+  background-color: var(--color-dragon);
+}
+
+.fairy {
+  background-color: var(--color-fairy);
+}
+
+.lista_item {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: var(--color-branco);
+  background-color: var(--color-verde);
+  border-radius: 2rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.number {
+  text-align: right;
+  opacity: 0.3;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.types {
+  padding: 0;
+  margin: 0;
+}
+
+.type {
+  background-color: var(--color-verde-claro);
+  border-radius: 2rem;
+  font-size: 0.6rem;
+  font-weight: regular;
+  padding: 0.25rem 0.5rem;
+  margin: 0.2rem 0;
+  text-align: center;
+}
+
+.lista_item img {
+  max-width: 100%;
+  height: 70px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 380px) {
+  .lista_pokemon {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .lista_pokemon {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .lista_pokemon {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

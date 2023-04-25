@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto+Slab:wght@400;600;800&display=swap');
+
+:root {
+  --color-verde: #14a06f;
+  --color-verde-claro: #4ec27c;
+  --color-branco: #ffffff;
+  --color-vermelho: #b22222;
+  --color-amarelo: #FFCC01;
+  --color-azulLogo: #385BA8;
+  --color-normal:#a6a877;
+  --color-grass:#77c850;
+  --color-fire:#ee7f30;
+  --color-water:#678fee;
+  --color-eletric:#f7cf2e;
+  --color-ice:#98d5d7;
+  --color-ground:#dfbf69;
+  --color-flying:#a98ff0;
+  --color-poison:#a040a0;
+  --color-fighting:#bf3029;
+  --color-psychic:#f65687;
+  --color-dark:#725847;
+  --color-rock:#b8a137;
+  --color-bug:#a8b720;
+  --color-ghost:#6e5896;
+  --color-steel:#b9b7cf;
+  --color-dragon:#6f38f6;
+  --color-fairy:#f9aec7;
+}
+
+* {
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: #d8bfd8;
+}
+
+/*HEADER*/
+
+.cabecalho {
+  margin: 0rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--color-vermelho);
+  color: var(--color-branco);
+}
+
+.cabecalho img {
+  max-width: 10%;
+}
+
+.cabecalho h1 {
+  margin: 0;
+  text-align: center;
+  font-family:'Lilita One', cursive;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color:var(--color-azulLogo);
+  -webkit-text-fill-color:var(--color-amarelo);
+}
+
+.container {
+  padding: 1rem;
+}
+
+
+/*FOOTER*/
+footer {
+  color: var(--color-amarelo);
+  background-color: var(--color-vermelho);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer p {
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.midias a {
+  display: inline-block;
+  padding: 0.2rem;
+  color: var(--color-amarelo);
+  transition: 0.3s;
+}
+
+.midias a:hover {
+  color: var(--color-verde-claro);
+}
+/*MEDIA QUERIES*/
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
