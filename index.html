@@ -29,32 +29,20 @@
       <h1>Pokédex</h1>
       <img src="./assets/img/pokebola.png" alt="" srcset="">
     </header>
-    <section class="container">
-     
-      <ol class="lista_pokemon">
+   <body>
+    <section class="content">
 
-        <li class="lista_item">
+        <ol id="pokemonList" class="pokemons">
+           
+        </ol>
 
-          <span class="number">#001</span>
-          <span class="name">Bulbasaur</span>
-
-          <div class="details">
-            <ol class="types">
-              <li class="type">grass</li>
-              <li class="type">poison</li>
-            </ol>
-
-            <img 
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
-              alt="Bulbasaur"
-              srcset=""
-            />
-          </div>
-        </li>
-
-       
-      </ol>
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Ver mais
+            </button>
+        </div>
     </section>
+   </body>
     <footer>
         <p>©2023 - Desevolvido por Jéssica Cristina&#127826</p>
 
@@ -69,6 +57,8 @@
            
     </footer>
     <script src="https://kit.fontawesome.com/f7115d9ac5.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
